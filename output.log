@@ -1,0 +1,140 @@
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+httpd (pid 4520) already running
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}(Object(Facade\Ignition\IgnitionServiceProvider))
+
+      [2m+5 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}(Object(Facade\Ignition\IgnitionServiceProvider))
+
+      [2m+5 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}(Object(Facade\Ignition\IgnitionServiceProvider))
+
+      [2m+5 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}(Object(Facade\Ignition\IgnitionServiceProvider))
+
+      [2m+5 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+   InvalidArgumentException 
+
+  Please provide a valid cache path.
+
+  at vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36
+     32▕      */
+     33▕     public function __construct(Filesystem $files, $cachePath)
+     34▕     {
+     35▕         if (! $cachePath) {
+  ➜  36▕             throw new InvalidArgumentException('Please provide a valid cache path.');
+     37▕         }
+     38▕ 
+     39▕         $this->files = $files;
+     40▕         $this->cachePath = $cachePath;
+
+      [2m+20 vendor frames [22m
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}(Object(Facade\Ignition\IgnitionServiceProvider))
+
+      [2m+5 vendor frames [22m
+  27  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Starting Laravel development server: http://0.0.0.0:4001
+[Fri Sep  3 10:00:12 2021] 127.0.0.1:51623 [200]: /favicon.ico
+[Fri Sep  3 10:00:12 2021] 127.0.0.1:51627 [200]: /favicon.ico
+[Fri Sep  3 10:00:12 2021] 127.0.0.1:51631 [200]: /favicon.ico
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
