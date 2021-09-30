@@ -138,3 +138,4 @@ AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
 AH00557: httpd: apr_sockaddr_info_get() failed for 192-168-0-129.rdsnet.ro
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+No scheduled commands are ready to run.

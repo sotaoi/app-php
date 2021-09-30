@@ -1,7 +1,7 @@
 #!/bin/bash
 
-import { execSync } from 'child_process';
-import fs from 'fs';
+const { execSync } = require('child_process');
+const fs = require('fs');
 
 const main = async () => {
   if (process.platform !== 'linux' || !fs.existsSync('/etc/supervisor/conf.d')) {

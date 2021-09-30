@@ -1,4 +1,6 @@
-import { execSync } from 'child_process';
+#!/usr/bin/env node
+
+const { execSync } = require('child_process');
 
 execSync('composer -n install', { stdio: 'inherit' });
 execSync('php artisan view:clear', { stdio: 'inherit' });

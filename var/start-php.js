@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 require('dotenv').config();
-import fs from 'fs';
-import path from 'path';
-import { exec } from 'child_process';
-import express from 'express';
-import https from 'https';
-import { createProxyMiddleware } from 'http-proxy-middleware';
+const fs = require('fs');
+const path = require('path');
+const { exec } = require('child_process');
+const express = require('express');
+const https = require('https');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 const tail = require('tail').Tail;
 
 let serverInitInterval = null;

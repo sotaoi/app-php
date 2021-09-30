@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { exec } from 'child_process';
+const { exec } = require('child_process');
 
 const runSchedule = () => exec('php artisan schedule:run >> ./output.log 2>&1');
 setInterval(() => runSchedule(), 60000);
