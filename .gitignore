@@ -1,5 +1,7 @@
 /node_modules
 /vendor
+/output.log
+
 .env
 .env.backup
 .phpunit.result.cache
