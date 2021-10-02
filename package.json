@@ -2,7 +2,7 @@
   "name": "@app/php",
   "private": true,
   "scripts": {
-    "bootstrap": "npm install --no-audit --no-funds && composer install && npm run app:refresh",
+    "bootstrap": "npm install --no-audit --no-fund && composer install && npm run app:refresh",
     "postinstall": "node ./var/posthook",
     "app:queue": "node ./var/app-queue",
     "app:refresh": "npm install && node ./var/app-refresh",
