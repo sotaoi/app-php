@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "bootstrap": "npm install --no-audit --no-fund && composer -n install && npm run app:refresh",
-    "postinstall": "node ./var/posthook",
     "app:queue": "node ./var/app-queue",
     "app:refresh": "npm install && node ./var/app-refresh",
     "restart:supervisor": "node ./var/restart-supervisor",
-    "start:php": "node ./var/start-php"
+    "start:php": "node ./var/start-php",
+    "postinstall": "node ./var/posthook"
   },
   "devDependencies": {
     "@types/express": "^4.17.1",
