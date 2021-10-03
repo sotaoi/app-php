@@ -6,7 +6,8 @@
     "app:queue": "node ./var/app-queue",
     "app:refresh": "npm install && node ./var/app-refresh",
     "restart:supervisor": "node ./var/restart-supervisor",
-    "start:php": "node ./var/start-php",
+    "start:php": "NODE_ENV=development node ./var/start-php",
+    "start:php:prod": "NODE_ENV=production node ./var/start-php",
     "postinstall": "node ./var/posthook"
   },
   "devDependencies": {
