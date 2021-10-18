@@ -36,9 +36,9 @@ logTail.on('line', (data) => log(data));
 
 process.env.PORT = process.env.PORT || '4000';
 
-const keyPath = path.resolve(process.env.SSL_KEY || '');
-const certPath = path.resolve(process.env.SSL_CERT || '');
-const chainPath = path.resolve(process.env.SSL_CA || '');
+const keyPath = require.resolve(process.env.SSL_KEY || '');
+const certPath = require.resolve(process.env.SSL_CERT || '');
+const chainPath = require.resolve(process.env.SSL_CA || '');
 
 const main = async () => {
   clearTimeout(serverInitInterval);
