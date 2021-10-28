@@ -8,7 +8,8 @@
     "app:refresh": "npm install && node ./var/app-refresh",
     "restart:supervisor": "node ./var/restart-supervisor",
     "start:php": "NODE_ENV=development node ./var/start-php",
-    "start:php:prod": "NODE_ENV=production node ./var/start-php",
+    "start:php:prod": "NODE_ENV=production pm2 start ./var/start-php.js",
+    "stop:php:prod": "pm2 stop ./var/start-php.js",
     "postinstall": "node ./var/posthook"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^2.0.1",
+    "pm2": "^5.1.2",
     "tail": "^2.2.3"
   }
 }
