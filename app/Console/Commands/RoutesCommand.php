@@ -5,7 +5,7 @@ use Route;
 
 class RoutesCommand extends Command
 {
-    protected $signature = 'routes';
+    protected $signature = 'sotaoi:routes';
 
     public function handle()
     {
